@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-
+  <router-view/>
+    <Nav></Nav>
   </div>
 </template>
 
@@ -10,7 +11,7 @@ import Nav from './components/Nav.vue'
 export default {
   name: 'app',
   components: {
-    
+    Nav
   }
 }
 </script>
