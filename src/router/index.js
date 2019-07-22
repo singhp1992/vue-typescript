@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/Home' // this is the import line to add
 import Categories from '@/components/Categories'
+import Random from '@/components/Categories'
 
 Vue.use(Router)
 
@@ -17,6 +18,16 @@ export default new Router({
             path: '/home',
             name: 'Home',
             component: Home
+        },
+        {
+            path: '/categories',
+            name: 'Categories',
+            component: Categories
+        },
+        {
+            path: '/random',
+            name: 'random',
+            component: Random
         }
     ]
 })
