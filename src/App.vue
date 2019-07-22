@@ -5,7 +5,7 @@
 </template>
 
 <script>
-// import Menu from './components/Menu.vue'
+import Nav from './components/Nav.vue'
 
 export default {
   name: 'app',
