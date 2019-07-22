@@ -1,15 +1,15 @@
 <template>
   <div class="hello">
-    Skills
+    Menu
 
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Skills',
+  name: 'Menu',
   props: {
-
+    
   }
 }
 </script>
