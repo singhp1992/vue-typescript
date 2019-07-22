@@ -1,8 +1,7 @@
 <template>
   <div>
-    <h2>Nav Bar</h2>
     <nav>
-      <router-link v-for="routes in links" 
+      <router-link class="spacing" v-for="routes in links" 
       v-bind:key="routes.id"
       :to="`${routes.page}`">{{routes.text}}</router-link>
     </nav>
@@ -17,21 +16,16 @@ export default {
       links: [
         {
           id: 0,
-          text: 'Hello World',
-          page:'/HelloWorld'
-        },
-        {
-          id: 1,
           text: 'Home',
           page:'/Home'
         },
         {
-          id: 2,
+          id: 1,
           text: 'Categories',
           page:'/Categories'
         },
         {
-          id: 3,
+          id: 2,
           text: 'Random',
           page:'/Random'
         }
@@ -40,3 +34,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.spacing { 
+    margin-right: 10px; 
+} 
+</style>
