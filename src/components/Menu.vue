@@ -1,16 +1,14 @@
 <template>
-  <div class="hello">
-    Menu
-
-  </div>
+  <div id="menu" class="menu">
+    Home
+    Categories
+    Random
+    </div>
 </template>
 
 <script>
 export default {
   name: 'Menu',
-  props: {
-    
-  }
 }
 </script>
 
