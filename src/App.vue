@@ -1,27 +1,29 @@
 <template>
   <div id="app">
-    <Menu />
+  <router-view/>
+    <Nav></Nav>
   </div>
 </template>
 
 <script>
-import Menu from './components/Menu.vue'
+import Nav from './components/Nav.vue'
 
 export default {
   name: 'app',
   components: {
-    Menu
+    Nav
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+
 </style>
