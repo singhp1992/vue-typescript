@@ -7,8 +7,12 @@
 
 <script>
 export default {
-  name: 'About' //this is the name of the component
+  name: 'About' 
 }
 </script>
 <style>
+#cat {
+  height: 1500px;
+  margin-top: 100px;
+}
 </style>

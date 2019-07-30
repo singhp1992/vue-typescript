@@ -41,11 +41,34 @@ export default {
 
 <style>
 .spacing { 
-    margin-right: 10px; 
+    margin-left: 20px; 
+    margin-right: 20px;
 } 
 
-.navbar {
-    background-color: blue;
+ nav {
+  position: fixed; 
+  left: 0;          
+  top: 0;           
+  width: 100vw;      
+  z-index:200;  
+  height: 50px;    
+  font-size: 25px;
+  background-color: rgb(77, 77, 77);
+  padding-top: 30px;
+  color:white;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+    color: #bcc4dd;
 }
 
 </style>
