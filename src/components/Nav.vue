@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav>
-      <router-link 
+      <router-link
         class="spacing" 
         v-for="routes in links" 
         v-bind:key="routes.id"
@@ -56,18 +56,19 @@ export default {
   background-color: rgb(77, 77, 77);
   padding-top: 30px;
   color:white;
+  cursor: pointer;
 }
 
 a {
-   text-decoration: none;
-   color: white;
-}
+    text-decoration: none;
+    color: white;
+ }
 
 a:visited {
   color: white;
 }
 
-a:hover {
+router-link:hover {
     color: #bcc4dd;
 }
 

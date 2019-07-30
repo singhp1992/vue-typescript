@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home' 
 import Categories from '@/components/Categories'
-import Random from '@/components/Categories'
+import Random from '@/components/Random'
 
 Vue.use(Router)
 
