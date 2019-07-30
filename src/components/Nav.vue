@@ -3,8 +3,8 @@
     <nav>
       <router-link
         class="spacing" 
-        v-for="routes in links" 
         v-bind:key="routes.id"
+        v-for="routes in links" 
         :to="`${routes.page}`">
         {{routes.text}}
       </router-link>
@@ -21,17 +21,17 @@ export default {
         {
           id: 0,
           text: 'Home',
-          page:'/Home'
+          page:'/home'
         },
         {
           id: 1,
           text: 'Categories',
-          page:'/Categories'
+          page:'/categories'
         },
         {
           id: 2,
           text: 'Random',
-          page:'/Random'
+          page:'/random'
         }
       ]
     }
