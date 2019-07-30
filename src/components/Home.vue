@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home">
     <h1>Home</h1>
     <p>Here is some information. This is the home page</p>
   </div>
@@ -12,4 +12,8 @@ export default {
 </script>
 
 <style>
+#home {
+  height: 1500px;
+  margin-top: 100px;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="cat">
     <h1>Categories</h1>
     <p>Here is some information. This is the about page</p>
   </div>
@@ -7,8 +7,12 @@
 
 <script>
 export default {
-  name: 'About' //this is the name of the component
+  name: 'About' 
 }
 </script>
 <style>
+#cat {
+  height: 1500px;
+  margin-top: 100px;
+}
 </style>
