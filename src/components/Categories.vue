@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="cat">
     <h1>Categories</h1>
     <p>Here is some information. This is the about page</p>
   </div>
