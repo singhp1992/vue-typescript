@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import Router from 'vue-router'
-import Home from '@/components/home' 
-import Categories from '@/components/categories'
-import Random from '@/components/random'
+import Router from 'vue-router';
+import Home from '@/components/home'; 
+import Categories from '@/components/categories';
+import Random from '@/components/random';
 
 Vue.use(Router)
 
